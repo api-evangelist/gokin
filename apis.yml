@@ -1,24 +1,65 @@
 aid: gokin
 name: Gokin
-description: 'Gokin is a company surfaced as a portfolio company of idg-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer-technology. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Gokin Solar Co., Ltd. (高景太阳能股份有限公司) is a Chinese photovoltaic manufacturer
+  founded in 2019 and headquartered in Jiangsu, China. The company produces monocrystalline
+  silicon ingots and wafers (N-type and P-type) and high-efficiency solar modules (GOKIN
+  BC and FLAMINGO series), operating four major production bases with roughly 100 GW of
+  wafer and 16 GW of module annual capacity. Ranked among the top three global silicon-wafer
+  shippers, Gokin employs 6,000+ people, holds 500+ patents, and serves utility, commercial,
+  and residential solar projects across 30+ countries. Backed by IDG Capital, Gokin is a
+  solar-hardware manufacturer with a corporate marketing website and no public developer
+  or API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/gokin/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://gokinsolar.com/static/home/images/101.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - idg-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-provider: false
+x-api-provider-reason: 'Solar-hardware manufacturer; corporate marketing site only, no developer
+  portal, documentation, API reference, or any machine API surface (verified 2026-07-19).'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer Technology
+- Solar
+- Photovoltaics
+- Clean Energy
+- Renewable Energy
+- Manufacturing
+- Hardware
 apis: []
+common:
+- type: Website
+  url: https://www.gokinsolar.com/en
+- type: Blog
+  url: https://www.gokinsolar.com/en/news/company-news
+- type: Support
+  url: https://www.gokinsolar.com/en/contact
+- type: DomainSecurity
+  url: security/gokin-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
