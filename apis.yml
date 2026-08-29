@@ -10,6 +10,17 @@ description: 'Gokin Solar Co., Ltd. (高景太阳能股份有限公司) is a Chi
   solar-hardware manufacturer with a corporate marketing website and no public developer
   or API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/gokin/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
